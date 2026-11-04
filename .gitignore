@@ -30,6 +30,8 @@ daily_report_*.xls
 final.png
 daily_report_*.png
 daily_report_*.jpg
+
+# Unwanted Python files
 basic_pyautogui.py
 pyautogui_mouse_operation.py
 pyautogui_keyboard_operation.py
@@ -38,6 +40,7 @@ playwright_final_demo.py
 playwright_basic.py
 final_demo.py
 test.py
+
 # Temporary files
 *.tmp
 *.log
