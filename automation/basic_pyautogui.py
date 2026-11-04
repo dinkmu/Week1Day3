@@ -1,9 +1,12 @@
 import pyautogui
-import time
+pyautogui.FAILSAFE = True
+pyautogui.PAUSE = 1.0
 
-print("move your mouse to the button you want to click in 5 seconds...")
-time.sleep(5)
+# import time
 
-x,y = pyautogui.position()
-print(f"clicking at position: {x}, {y}")
-#pyautogui.click(x, y)
+# print("move your mouse to the button you want to click in 5 seconds...")
+# time.sleep(5)
+
+# x,y = pyautogui.position()
+# print(f"clicking at position: {x}, {y}")
+# #pyautogui.click(x, y)

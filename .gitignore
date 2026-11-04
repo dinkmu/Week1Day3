@@ -1,4 +1,49 @@
-venv/
+# Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated Excel reports
+daily_report_*.xlsx
+daily_report_*.xls
+
+# Generated screenshots
+final.png
+daily_report_*.png
+daily_report_*.jpg
+basic_pyautogui.py
+pyautogui_mouse_operation.py
+pyautogui_keyboard_operation.py
+pyalywright_key_functionality.py
+playwright_final_demo.py
+playwright_basic.py
+final_demo.py
+test.py
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Python distribution
+build/
+dist/
+*.egg-info/
